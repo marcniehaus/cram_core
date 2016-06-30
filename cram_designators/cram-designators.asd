@@ -12,6 +12,7 @@
   :depends-on (:alexandria
                :cram-utilities
                :cram-prolog
+               :cram-language
                :trivial-garbage)
   :components
   ((:module "src"

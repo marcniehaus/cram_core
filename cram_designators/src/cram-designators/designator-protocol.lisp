@@ -43,7 +43,7 @@
   "Weak hash table that contains all currently valid designators as
   keys. The values are unused.")
 
-(define-condition designator-error (simple-error)
+(define-condition designator-error (cram-language:plan-failure)
   ((designator :reader designator :initarg :designator :initform nil))
   (:default-initargs :format-control "DESIGNATOR-ERROR"))
 
